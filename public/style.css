@@ -1,0 +1,45 @@
+body{
+	background-color:#333;  
+	color:white;
+}
+
+h1{
+	color:#799;
+	text-shadow: 1px 2px #000;
+}
+button{
+	margin-top:5px;
+	border-radius:5px;
+	width:60px;
+	padding:4px;
+}
+.recipeSelection{
+	padding-bottom:5px;
+	margin-bottom:25px;
+    border-bottom:2px solid;
+    border-color:#ffffff;
+}
+#recipeViewButton{
+	background-color:#9f9;
+}
+#recipeSubmitButton{ 
+	background-color:#99f;
+}
+
+form{ 
+	border:solid 2px silver;
+	border-radius: 10px;
+	padding: 5px;
+	color:white;
+	background-color:#555;
+	box-shadow:3px 3px #000;
+}
+
+#confirmed{
+	display:none;
+}
+
+.check{
+	color:#0f0;
+}
+

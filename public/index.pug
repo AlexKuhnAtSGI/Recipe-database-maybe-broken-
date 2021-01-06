@@ -1,0 +1,46 @@
+//-Simple pug client page for recipe database
+//-By Alexander Kuhn (ID 101023154)
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    link(rel='stylesheet', href='style.css')
+    title  Comp2406 Recipe Viewer
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js')
+    script(src='recipePage.js')
+  body
+    div
+      h1 Comp2406 Recipes Database!
+    .recipeSelection
+      | Recipe:
+      br
+      |  
+      select#recipeSelect
+      |  
+      button#recipeViewButton View
+    div
+      | Name:
+      br
+      |  
+      input#recipeName(type='text')
+      br
+      |  Duration:
+      br
+      |  
+      input#recipeDuration(type='number')
+      br
+      |  Ingredients:
+      br
+      textarea#recipeIngredients(rows='10', cols='75')
+      br
+      |  Steps:
+      br
+      textarea#recipeDirections(rows='7', cols='75')
+      br
+      |  Notes:
+      br
+      textarea#recipeNotes(rows='3', cols='20')
+      br
+      |  
+      button#recipeSubmitButton Submit
+      #confirmed.check  &#x2714;
